@@ -25,7 +25,6 @@ def generate_launch_description():
         parameters=[params]
     )
 
-
     # Launch!
     return LaunchDescription([
         DeclareLaunchArgument(
